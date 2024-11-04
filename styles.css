@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1e0d6; /* Фон */
+    color: #583e2e;
+}
+
+h1 {
+    font-size: 26px;
+    color: #6b5848; /* Заголовок */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #bf988f; /* Текст */
+    margin: 10px 0;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid #583e2e; /* Рамка */
+    border-radius: 10px;
+    background-color: #f1e0d6; /* Фон графика*/
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #583e2e;
+    background-color: #bf988f; /* Цвет кнопки */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #a77870; /* Цвет кнопки при наведении */
+    transform: translateY(-2px); /* Лёгкий эффект подъёма */
+}
+
+button:active {
+    background-color: #8f5e56; /* Цвет кнопки при нажатии */
+    transform: translateY(0); /* Возвращение в исходное положение */
+}

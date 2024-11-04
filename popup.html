@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTTP Success Tracker</title>
+    <style>
+        body {
+            width: 400px;
+            height: 400px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="chart.umd.min.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <h1>HTTP Success Tracker</h1>
+        <p>The number of successfully completed network requests for the current tab: <span id="count">0</span></p>
+        <canvas id="requestChart" width="300" height="200"></canvas>
+        <button id="updateButton">Update information</button>
+        <button id="resetButton">Reset information</button>
+        <link rel="stylesheet" href="styles.css">
+    </body>
+</html>
